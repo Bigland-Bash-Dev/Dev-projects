@@ -1,0 +1,11 @@
+# Vim swap files
+.*.swp
+.swp
+*~
+
+# Emacs backup files
+\#*\#
+.\#*
+
+# Arch system files
+.DS_Store
