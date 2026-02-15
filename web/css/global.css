@@ -11,15 +11,18 @@
 }
 
 body {
-    background: linear-gradient(270deg, #0d1117, #0d1117, #162a26, #0d1117);
-    background-size: 600% 600%;
-    animation: aurora 15s ease infinite;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Fira Code', 'Courier New', monospace;
     line-height: 1.6;
     margin: 0;
     padding: 2rem;
+}
+
+body {
+    background: linear-gradient(270deg, #0d1117, #0d1117, #162a26, #0d1117);
+    background-size: 600% 600%;
+    animation: aurora 15s ease infinite;
 }
 
 @keyframes aurora {
